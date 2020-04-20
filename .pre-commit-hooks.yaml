@@ -1,0 +1,17 @@
+- id: flutter-format
+  name: Format Dart Code
+  entry: format.sh
+  language: script
+  files: \.dart$
+
+- id: flutter-analyze
+  name: Analyze Flutter Code
+  entry: analyze.sh
+  language: script
+  always_run: true
+
+- id: flutter-test
+  name: Test Flutter Code
+  entry: test.sh
+  language: script
+  always_run: true
